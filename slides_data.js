@@ -4,14 +4,35 @@ const SLIDES_DATA = [
     type: "hero",
     tag: "Ypatingai slapta byla • 1956–2026",
     title: "VOLDEMARAS VII: Septyni dešimtmečiai legendos",
-    subtitle: "Oficiali archyvinė fotodosjė Voldemaro 70-mečio proga. Dokumentuoti faktai apie Friulio žygius, ūkio inžineriją, pirties ištvermę ir šeimos diplomatiją.",
+    subtitle: "Oficiali archyvinė fotodosjė Voldemaro 70-mečio proga. Dokumentuoti faktai apie mokslo šaknis, Friulio žygius, ūkio inžineriją, roką ir šeimos dinastiją.",
     leadNote: "Dėmesio: peržiūros metu garantuojama plati šypsena ir didžiulis pasididžiavimas jubiliatu.",
     ctaText: "Pradėti peržiūrą →"
   },
   {
+    id: "pradzia",
+    type: "photos",
+    tag: "1 skyrius • Legendos šaknys",
+    title: "Nuo pirmos klasės iki disertacijos",
+    description: "Kiekviena didi odisėja prasideda nuo mokyklinio suolo ir bemiegių naktų prie disertacijos rankraščių.",
+    photos: [
+      {
+        src: "web_photos/mokinukas_su_gelemis.jpg",
+        title: "Pirmokas su gėlėmis",
+        caption: "Rugsėjo 1-oji mokykloje: gėlės rankose, šventinė uniforma ir pasiryžimas mokslo viršukalnėms. Voldemaras – tas mokinukas su gėlių puokšte!",
+        badge: "Mokykla"
+      },
+      {
+        src: "web_photos/doktoranto_disertacija.jpg",
+        title: "Doktoranto disertacija",
+        caption: "Mokslinė disertacija reikalauja maksimalios koncentracijos ir jokių varžančių marškinių! Karštos mintys, galingas stotas ir būsimasis mokslų daktaras prie darbo.",
+        badge: "Doktorantūra"
+      }
+    ]
+  },
+  {
     id: "alchemija",
     type: "photos",
-    tag: "1 skyrius • Slaptoji laboratorija",
+    tag: "2 skyrius • Slaptoji laboratorija",
     title: "Ūkio alchemikas ir antikinės technologijos",
     description: "Tikras meistras sodyboje niekada nesiilsi. Kai kiti geria arbatą, Voldemaras verda energijos mikstūras ir atlieka archeologinius kasinėjimus.",
     photos: [
@@ -32,7 +53,7 @@ const SLIDES_DATA = [
   {
     id: "alpinistas",
     type: "photos",
-    tag: "2 skyrius • Friulio kalnai",
+    tag: "3 skyrius • Friulio kalnai",
     title: "Friulio uolų erelis: gravitacija tėra rekomendacija",
     description: "Kam reikalingi lygūs takai, kai Friulio kalnuose yra uolos, šlaitai ir nepalaužiamas noras užlipti ten, kur kiti bijo pažiūrėti?",
     photos: [
@@ -65,7 +86,7 @@ const SLIDES_DATA = [
   {
     id: "friulis-ezerai",
     type: "photos",
-    tag: "3 skyrius • Šiaurės elegancija",
+    tag: "4 skyrius • Šiaurės elegancija",
     title: "Friulio ežerai ir snieguotos viršūnės",
     description: "Nuo ramaus Fusine ežero vandens iki snieguotų viršukalnių keterų. Stilius ir ramybė bet kokiame aukštyje.",
     photos: [
@@ -92,7 +113,7 @@ const SLIDES_DATA = [
   {
     id: "juru-vilkas",
     type: "photos",
-    tag: "4 skyrius • Jūrų ekspedicijos",
+    tag: "5 skyrius • Jūrų ekspedicijos",
     title: "Kapitonas Voldemaras ir Furlano piratai",
     description: "Vandens stichija Voldemarui sava: motorinis kateris, Venecijos kanalai ir derybos su vietiniais jūrų vilkais.",
     photos: [
@@ -119,7 +140,7 @@ const SLIDES_DATA = [
   {
     id: "pajurys",
     type: "photos",
-    tag: "5 skyrius • Baltijos vėjai",
+    tag: "6 skyrius • Baltijos vėjai",
     title: "Pajūrio stilius ir vėjo choreografija",
     description: "Kopų takeliai ir tiltai į jūrą. Kuršių nerija ir Palanga dar ilgai atsimins šiuos paslaptingus, galingus siluetus.",
     photos: [
@@ -140,7 +161,7 @@ const SLIDES_DATA = [
   {
     id: "pirtis",
     type: "photos",
-    tag: "6 skyrius • Sveikas kūnas",
+    tag: "7 skyrius • Sveikas kūnas",
     title: "Pirties gladiatorius ir SPA imperatorius",
     description: "Tikra lietuviška sveikata kalama karštame garo debesyje ir ąžuoliniame kubile. Amžius čia neturi jokių šansų.",
     photos: [
@@ -161,7 +182,7 @@ const SLIDES_DATA = [
   {
     id: "universitetas",
     type: "photos",
-    tag: "7 skyrius • Akademinis džiaugsmas",
+    tag: "8 skyrius • Akademinis džiaugsmas",
     title: "VU kiemelis ir šampano strategija",
     description: "Vilniaus universiteto diplomų teikimas – didžiulė šventė, o tėčio pareiga – užtikrinti šampano atidarymo saugumą.",
     photos: [
@@ -188,7 +209,7 @@ const SLIDES_DATA = [
   {
     id: "stalas",
     type: "photos",
-    tag: "8 skyrius • Kulinarijos menas",
+    tag: "9 skyrius • Kulinarijos menas",
     title: "Šventinis stalas ir chirurginis tikslumas",
     description: "Šeimos susibūrimai reikalauja kantrybės, tobulo padažo dozavimo ir geros muzikos ilgesio.",
     photos: [
@@ -215,7 +236,7 @@ const SLIDES_DATA = [
   {
     id: "gurmanas",
     type: "photos",
-    tag: "9 skyrius • Gyvenimo skonis",
+    tag: "10 skyrius • Gyvenimo skonis",
     title: "Gyvenimo gurmanas ir degustacijos",
     description: "Alaus puta turi būti aukšta, o diskusijos prie stalo – gilios. Voldemaras – nepakeičiama kompanijos siela.",
     photos: [
@@ -248,7 +269,7 @@ const SLIDES_DATA = [
   {
     id: "tetis-senelis",
     type: "photos",
-    tag: "10 skyrius • Šeimos širdis",
+    tag: "11 skyrius • Šeimos širdis",
     title: "Stilistas, mylintis tėtis ir senelis",
     description: "Nuo preciziško perlų vėrinio užsegimo iki anūkėlio ramybės glėbyje. Švelnioji ir rūpestingoji Voldemaro pusė.",
     photos: [
@@ -279,9 +300,30 @@ const SLIDES_DATA = [
     ]
   },
   {
+    id: "trys-kartos",
+    type: "photos",
+    tag: "12 skyrius • Šeimos dinastija",
+    title: "Trys kartos ir šeimos taryba",
+    description: "Didžiausias Voldemaro pasididžiavimas – darni, linksma ir auganti šeima, kurioje stiprėja jau trečioji karta.",
+    photos: [
+      {
+        src: "web_photos/trys_kartos.jpg",
+        title: "Trys kartos prie vartų",
+        caption: "Tėtis, sūnūs ir anūkas! Trys kartos viename kadre po galingais ąžuoliniais vartais. Genai patikrinti, tradicijos patikimose rankose.",
+        badge: "3 kartos"
+      },
+      {
+        src: "web_photos/seimos_taryba_kudikis.jpg",
+        title: "Šeimos tarybos posėdis",
+        caption: "Pilnas vaišių stalas ir visa giminė – nuo mažiausio iki vyriausiojo. Voldemaras kontroliuoja situaciją iš garbės vietos.",
+        badge: "Šeimos taryba"
+      }
+    ]
+  },
+  {
     id: "vestuves",
     type: "photos",
-    tag: "11 skyrius • Šeimos šventės",
+    tag: "13 skyrius • Šeimos šventės",
     title: "Lietuviškų vestuvių šurmulys",
     description: "Vestuvės be Voldemaro šypsenos – kaip piršlys be juostos. Gražiausios tradicijos, palaiminimai ir nuoširdus džiaugsmas.",
     photos: [
@@ -302,7 +344,7 @@ const SLIDES_DATA = [
   {
     id: "asmenukes",
     type: "photos",
-    tag: "12 skyrius • Fotografijos avangardas",
+    tag: "14 skyrius • Fotografijos avangardas",
     title: "Asmenukių pionierius ir veidrodžių meistras",
     description: "Instagramas atsirado tik 2010 m., bet Voldemaras asmenukių meną ištobulino dar 2007-aisiais, pritaikydamas natūralią elnio ragų kompoziciją.",
     photos: [
@@ -335,7 +377,7 @@ const SLIDES_DATA = [
   {
     id: "keliones-italija",
     type: "photos",
-    tag: "13 skyrius • Pasaulio pilietis",
+    tag: "15 skyrius • Pasaulio pilietis",
     title: "Friulio dvarai, pilys ir kelionių startas",
     description: "Italijos dvasia, istoriniai parkai ir pasiruošimas naujiems nuotykiams.",
     photos: [
@@ -368,9 +410,9 @@ const SLIDES_DATA = [
   {
     id: "kompanija",
     type: "photos",
-    tag: "14 skyrius • Kompanijos siela",
-    title: "Amžinai jaunas: su šeima ir draugais",
-    description: "Voldemaras visada centre: fotobombina kadrus, palaiko Dalios burtus ir džiaugiasi Jolijos sugrįžimu.",
+    tag: "16 skyrius • Kompanijos siela ir rokas",
+    title: "Amžinai jaunas: su šeima, draugais ir roko dvasia",
+    description: "Voldemaras visada centre: fotobombina kadrus, palaiko Dalios burtus, džiaugiasi Jolijos sugrįžimu ir šėlsta stadiono roke.",
     photos: [
       {
         src: "web_photos/Picture_069_3.jpg",
@@ -389,13 +431,19 @@ const SLIDES_DATA = [
         title: "Jolija grįžo!",
         caption: "Didžioji diena: Jolija grįžo, bokalai ant stalo pilni, o Voldemaro akyse – absoliutus džiaugsmas ir ramybė.",
         badge: "Šventinis bokalas"
+      },
+      {
+        src: "web_photos/roko_koncertas_stadione.jpg",
+        title: "Roko legendos stadione",
+        caption: "Lietus stadione? Užsimeti pončą, keli ranką į viršų ir rokenrolas visu garsu! Voldemarui joks lietus nesutrukdys dainuoti kartu su gitara.",
+        badge: "Rokenrolas"
       }
     ]
   },
   {
     id: "archyvas",
     type: "photos",
-    tag: "15 skyrius • Išminties lobynas",
+    tag: "17 skyrius • Išminties lobynas",
     title: "Slaptųjų protokolų analizė ir ateities vizija",
     description: "Kiekviena rimta operacija reikalauja kruopštaus pasirengimo ir gilaus susikaupimo.",
     photos: [
