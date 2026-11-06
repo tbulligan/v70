@@ -4,7 +4,7 @@ const SLIDES_DATA = [
     type: "hero",
     tag: "Ypatingai slapta byla • 1956–2026",
     title: "VOLDEMARAS VII: Septyni dešimtmečiai legendos",
-    subtitle: "Oficiali archyvinė fotodosjė Valdo 70-mečio proga. Dokumentuoti faktai apie Friulio žygius, ūkio inžineriją, pirties ištvermę ir šeimos diplomatiją.",
+    subtitle: "Oficiali archyvinė fotodosjė Voldemaro 70-mečio proga. Dokumentuoti faktai apie Friulio žygius, ūkio inžineriją, pirties ištvermę ir šeimos diplomatiją.",
     leadNote: "Dėmesio: peržiūros metu garantuojama plati šypsena ir didžiulis pasididžiavimas jubiliatu.",
     ctaText: "Pradėti peržiūrą →"
   },
@@ -13,18 +13,18 @@ const SLIDES_DATA = [
     type: "photos",
     tag: "1 skyrius • Slaptoji laboratorija",
     title: "Ūkio alchemikas ir antikinės technologijos",
-    description: "Tikras meistras sodyboje niekada nesiilsi. Kai kiti geria arbatą, Valdas verda energijos mikstūras ir atlieka archeologinius kasinėjimus.",
+    description: "Tikras meistras sodyboje niekada nesiilsi. Kai kiti geria arbatą, Voldemaras verda energijos mikstūras ir atlieka archeologinius kasinėjimus.",
     photos: [
       {
         src: "web_photos/100_0461_2.jpg",
         title: "Operacija „Eliksyras“",
-        caption: "Valdas gamina slaptą mikstūrą energijai iki mažiausiai 100 metų. Receptas paprastas: gera nuotaika, 100 litrų nežinomos masės ir ąžuolinis kuolas.",
+        caption: "Voldemaras gamina slaptą mikstūrą energijai iki mažiausiai 100 metų. Receptas paprastas: gera nuotaika, 100 litrų nežinomos masės ir ąžuolinis kuolas.",
         badge: "Sodybos magija"
       },
       {
         src: "web_photos/100_0604.jpg",
         title: "Antikinės amforos inspekcija",
-        caption: "Sodo archeologija: jei senovės graikai mokėjo daryti gerą vyną, tai Valdas moka surasti jam tobuliausią indą tiesiai kiemo viduryje.",
+        caption: "Sodo archeologija: jei senovės graikai mokėjo daryti gerą vyną, tai Voldemaras moka surasti jam tobuliausią indą tiesiai kiemo viduryje.",
         badge: "Archeologija"
       }
     ]
@@ -39,7 +39,7 @@ const SLIDES_DATA = [
       {
         src: "web_photos/DSCN7981.jpg",
         title: "Parkūro pradininkas",
-        caption: "Instruktoriai tai vadina ekstremaliu nusileidimu. Valdas tai vadina tiesiausiu keliu link pietų stalo.",
+        caption: "Instruktoriai tai vadina ekstremaliu nusileidimu. Voldemaras tai vadina tiesiausiu keliu link pietų stalo.",
         badge: "0% baimės"
       },
       {
@@ -51,7 +51,7 @@ const SLIDES_DATA = [
       {
         src: "web_photos/DSCN7986.jpg",
         title: "Pasiruošimas šuoliui",
-        caption: "Sekundė prieš tai, kai uola suprato, kad Valdas jos nenaudos poilsiui – ant jos bus padarytas tobulas kontrolinis šuolis.",
+        caption: "Sekundė prieš tai, kai uola suprato, kad Voldemaras jos nenaudos poilsiui – ant jos bus padarytas tobulas kontrolinis šuolis.",
         badge: "Viršukalnė"
       },
       {
@@ -85,7 +85,7 @@ const SLIDES_DATA = [
         src: "web_photos/IMG_2533.jpg",
         title: "Viršukalnių duetas",
         caption: "Šilčiausios šypsenos tarp snieguotų viršūnių. Kartu per kalnus, speigus ir visus gyvenimo kelius.",
-        badge: "Dalia & Valdas"
+        badge: "Dalia & Voldemaras"
       }
     ]
   },
@@ -93,19 +93,19 @@ const SLIDES_DATA = [
     id: "juru-vilkas",
     type: "photos",
     tag: "4 skyrius • Jūrų ekspedicijos",
-    title: "Kapitonas Valdas ir Furlano piratai",
-    description: "Vandens stichija Valdui sava: motorinis kateris, Venecijos kanalai ir derybos su vietiniais jūrų vilkais.",
+    title: "Kapitonas Voldemaras ir Furlano piratai",
+    description: "Vandens stichija Voldemarui sava: motorinis kateris, Venecijos kanalai ir derybos su vietiniais jūrų vilkais.",
     photos: [
       {
         src: "web_photos/IMG_0537_2.jpg",
         title: "Vyriausiasis šturmanas",
-        caption: "Kursas – tiesiai į šventinį stalą, pilnu greičiu! Kai Valdas prie šturvalo, jokie rifai nebaisūs.",
+        caption: "Kursas – tiesiai į šventinį stalą, pilnu greičiu! Kai Voldemaras prie šturvalo, jokie rifai nebaisūs.",
         badge: "Prie vairo"
       },
       {
         src: "web_photos/IMG_0568_2.jpg",
         title: "Derybos su Furlanu",
-        caption: "Valdas su kolega Furlanu derina lobio dalybų sutartį. Ramybės ir povyzos standartai – aukščiausio lygio.",
+        caption: "Voldemaras su kolega Furlanu derina lobio dalybų sutartį. Ramybės ir povyzos standartai – aukščiausio lygio.",
         badge: "Friulis"
       },
       {
@@ -174,7 +174,7 @@ const SLIDES_DATA = [
       {
         src: "web_photos/2006_-_3.jpg",
         title: "Strateginis manevras",
-        caption: "Kol visi dar skaito diplomų priedus, Valdas jau laiko rankoje patį svarbiausią šventės instrumentą.",
+        caption: "Kol visi dar skaito diplomų priedus, Voldemaras jau laiko rankoje patį svarbiausią šventės instrumentą.",
         badge: "Šampanas"
       },
       {
@@ -195,7 +195,7 @@ const SLIDES_DATA = [
       {
         src: "web_photos/2006.jpg",
         title: "Velykų strateginis posėdis",
-        caption: "2006-ųjų Velykų taryba. Margučiai surikiuoti, o Valdo margutis tradiciškai išlieka neįveikiamas jokiais smūgiais.",
+        caption: "2006-ųjų Velykų taryba. Margučiai surikiuoti, o Voldemaro margutis tradiciškai išlieka neįveikiamas jokiais smūgiais.",
         badge: "Velykos 2006"
       },
       {
@@ -207,7 +207,7 @@ const SLIDES_DATA = [
       {
         src: "web_photos/Dalia_gimtadienis.jpg",
         title: "Dalios gimtadienio orkestras",
-        caption: "Balionai, dūdelės ir šventinis šurmulys. Dūdelė smagu, bet Valdo akyse matyti gilus profesionalo ilgesys: ech, kad dabar čia turėčiau savo tubą...",
+        caption: "Balionai, dūdelės ir šventinis šurmulys. Dūdelė smagu, bet Voldemaro akyse matyti gilus profesionalo ilgesys: ech, kad dabar čia turėčiau savo tubą...",
         badge: "Tubos ilgesys"
       }
     ]
@@ -217,7 +217,7 @@ const SLIDES_DATA = [
     type: "photos",
     tag: "9 skyrius • Gyvenimo skonis",
     title: "Gyvenimo gurmanas ir degustacijos",
-    description: "Alaus puta turi būti aukšta, o diskusijos prie stalo – gilios. Valdas – nepakeičiama kompanijos siela.",
+    description: "Alaus puta turi būti aukšta, o diskusijos prie stalo – gilios. Voldemaras – nepakeičiama kompanijos siela.",
     photos: [
       {
         src: "web_photos/2007.jpg",
@@ -250,7 +250,7 @@ const SLIDES_DATA = [
     type: "photos",
     tag: "10 skyrius • Šeimos širdis",
     title: "Stilistas, mylintis tėtis ir senelis",
-    description: "Nuo preciziško perlų vėrinio užsegimo iki anūkėlio ramybės glėbyje. Švelnioji ir rūpestingoji Valdo pusė.",
+    description: "Nuo preciziško perlų vėrinio užsegimo iki anūkėlio ramybės glėbyje. Švelnioji ir rūpestingoji Voldemaro pusė.",
     photos: [
       {
         src: "web_photos/Picture_003.jpg",
@@ -283,7 +283,7 @@ const SLIDES_DATA = [
     type: "photos",
     tag: "11 skyrius • Šeimos šventės",
     title: "Lietuviškų vestuvių šurmulys",
-    description: "Vestuvės be Valdo šypsenos – kaip piršlys be juostos. Gražiausios tradicijos, palaiminimai ir nuoširdus džiaugsmas.",
+    description: "Vestuvės be Voldemaro šypsenos – kaip piršlys be juostos. Gražiausios tradicijos, palaiminimai ir nuoširdus džiaugsmas.",
     photos: [
       {
         src: "web_photos/P9218808.jpg",
@@ -304,7 +304,7 @@ const SLIDES_DATA = [
     type: "photos",
     tag: "12 skyrius • Fotografijos avangardas",
     title: "Asmenukių pionierius ir veidrodžių meistras",
-    description: "Instagramas atsirado tik 2010 m., bet Valdas asmenukių meną ištobulino dar 2007-aisiais, pritaikydamas natūralią elnio ragų kompoziciją.",
+    description: "Instagramas atsirado tik 2010 m., bet Voldemaras asmenukių meną ištobulino dar 2007-aisiais, pritaikydamas natūralią elnio ragų kompoziciją.",
     photos: [
       {
         src: "web_photos/Picture_047_4.jpg",
@@ -315,13 +315,13 @@ const SLIDES_DATA = [
       {
         src: "web_photos/Picture_039_3.jpg",
         title: "Renesanso poilsis",
-        caption: "Kaip Mikelandželas tapė didvyrius, taip Valdas ilsisi po dienos darbų. Grynas magnetizmas ir fotogeniškumas.",
+        caption: "Kaip Mikelandželas tapė didvyrius, taip Voldemaras ilsisi po dienos darbų. Grynas magnetizmas ir fotogeniškumas.",
         badge: "Renesansas"
       },
       {
         src: "web_photos/IMG_0625.jpg",
         title: "Nevaldomas juokas",
-        caption: "Kai Valdas lepteli kokį nors genialų pokštą, net Dalia priversta slėpti veidą iš juoko.",
+        caption: "Kai Voldemaras lepteli kokį nors genialų pokštą, net Dalia priversta slėpti veidą iš juoko.",
         badge: "Juoko dozė"
       },
       {
@@ -370,7 +370,7 @@ const SLIDES_DATA = [
     type: "photos",
     tag: "14 skyrius • Kompanijos siela",
     title: "Amžinai jaunas: su šeima ir draugais",
-    description: "Valdas visada centre: fotobombina kadrus, palaiko Dalios burtus ir džiaugiasi Jolijos sugrįžimu.",
+    description: "Voldemaras visada centre: fotobombina kadrus, palaiko Dalios burtus ir džiaugiasi Jolijos sugrįžimu.",
     photos: [
       {
         src: "web_photos/Picture_069_3.jpg",
@@ -381,13 +381,13 @@ const SLIDES_DATA = [
       {
         src: "web_photos/DSCN8026.jpg",
         title: "Hipnozės seansas",
-        caption: "Dalia demonstruoja stebuklingus rankų burtus, o Valdas už nugaros kantriai palaiko magišką energijos lauką.",
+        caption: "Dalia demonstruoja stebuklingus rankų burtus, o Voldemaras už nugaros kantriai palaiko magišką energijos lauką.",
         badge: "Burtininkai"
       },
       {
         src: "web_photos/Jolija_grizo_014.jpg",
         title: "Jolija grįžo!",
-        caption: "Didžioji diena: Jolija grįžo, bokalai ant stalo pilni, o Valdo akyse – absoliutus džiaugsmas ir ramybė.",
+        caption: "Didžioji diena: Jolija grįžo, bokalai ant stalo pilni, o Voldemaro akyse – absoliutus džiaugsmas ir ramybė.",
         badge: "Šventinis bokalas"
       }
     ]
@@ -417,7 +417,7 @@ const SLIDES_DATA = [
     id: "finalas",
     type: "congrats",
     tag: "Jubiliejinis finišas • 70 metų!",
-    title: "SU 70-UOJU JUBILIEJUMI, VALDAI!",
+    title: "SU 70-UOJU JUBILIEJUMI, VOLDEMARAI!",
     subtitle: "Septyni dešimtmečiai nepriekaištingos charizmos, meilės šeimai, Friulio žygių ir neišsenkančio humoro jausmo.",
     wishes: [
       "Kad uolos visada turėtų kur patikimai įsikibti!",

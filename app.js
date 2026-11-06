@@ -1,4 +1,4 @@
-// Valdo 70-mečio prezentacijos variklis
+// Voldemaro 70-mečio prezentacijos variklis
 class Presentation {
   constructor(data) {
     this.slides = data;
