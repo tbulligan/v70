@@ -238,6 +238,22 @@ class Presentation {
         else this.prevSeamless();
       }
     }, { passive: true });
+
+    // Pelės ratuko navigacija (kaip iceland-photos, throttled 250ms)
+    let wheelThrottle = 0;
+    window.addEventListener("wheel", (e) => {
+      if (this.drawer.classList.contains("active")) return;
+      const now = Date.now();
+      if (now - wheelThrottle < 250) return;
+      if (Math.abs(e.deltaY) > 20 || Math.abs(e.deltaX) > 20) {
+        wheelThrottle = now;
+        if (e.deltaY > 0 || e.deltaX > 0) {
+          this.nextSeamless();
+        } else {
+          this.prevSeamless();
+        }
+      }
+    }, { passive: true });
   }
 
   // Nuosekli eiga: skaidrė -> foto 1 -> foto 2 -> kita skaidrė
